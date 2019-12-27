@@ -1,0 +1,80 @@
+
+body {
+    margin-top: 5px;
+    padding: 0;
+    background-color: rgb(214, 213, 213);
+}
+.container {
+    position: absolute;
+    top: 5px;
+    width: 1500px;
+    height: 60px;
+    border: 2px solid #444444;
+    box-shadow: 0 0 10px #444444;
+}
+
+.MenuBar div {
+    position: relative;
+    top: -15px;
+    float: left;
+}
+
+.MenuBar ul{
+    list-style: none;
+    background-color: #444;
+    text-align: right;
+    width: 1090px;
+    margin: 5px 0px 0px 400px;
+    padding: 0px;
+}
+
+
+
+.MenuBar li{
+    font-size: 1.2em;
+    line-height: 40px;
+    text-align: left;
+}
+
+.MenuBar a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: block;
+    padding-left: 15px;
+    border-bottom: 1px solid #888;
+    transition: .3s;
+}
+
+
+.MenuBar a:hover{
+    background-color: aqua;
+    color: #444444;
+}
+
+@media screen and (min-width: 650px) {
+    .MenuBar li { 
+        width: 130px;
+        border-bottom: none;
+        height: 50px;
+        line-height: 50px;
+        font-size: 1.4em;
+        display: inline-block;
+        margin-right: -4px;
+    }
+
+    .MenuBar a{
+        border-bottom: none;
+    }
+   
+    .MenuBar > ul > li {
+        text-align: center;
+    }
+   
+    .MenuBar > ul > li > a {
+        padding-left: 0;
+    }
+ }
+
+ 
+
+ 

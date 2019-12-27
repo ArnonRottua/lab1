@@ -1,0 +1,101 @@
+header {
+    background-color: rgb(214, 213, 213);
+    border-style: groove;
+    border-width: 1px;
+    border-color: #444;
+    width: 1500px;
+    height: 450px;
+    margin-top: 30px;
+    box-shadow: 0 0 10px #444;
+    
+}
+
+.imggall {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+section{
+    background-color: rgb(214, 213, 213);
+    border-style: groove;
+    border-width: 1px;
+    border-color: #444;
+    width: 1500px;
+    height: 500px;
+    margin-top: 30px;
+    box-shadow: 0 0 10px #444;
+}
+
+footer{
+    background-color: rgb(214, 213, 213);
+    border-style: groove;
+    border-width: 1px;
+    border-color: #444;
+    width: 1500px;
+    height: 60px;
+    margin-top: 30px;
+}
+
+.talk {
+    position: relative;
+    top: 20px;
+    left: -300px;
+    border: 1px solid #444444;
+    float: left;
+}
+
+.young {
+    position: relative;
+    top: 20px;
+    left: -250px;
+    border: 1px solid #444444;
+    float: left;
+}
+
+.saturday {
+    position: relative;
+    top: 20px;
+    left: -200px;
+    border: 1px solid #444444;
+    float: left;
+}
+
+.better {
+    position: relative;
+    top: 20px;
+    left: -150px;
+    border: 1px solid #444444;
+    float: left;
+}
+.love {
+    position: relative;
+    top: 50px;
+    left: -300px;
+    border: 1px solid #444444;
+    float: left;
+}
+
+.one {
+    position: relative;
+    top: 50px;
+    left: -250px;
+    border: 1px solid #444444;
+    float: left;
+}
+
+.thousand {
+    position: relative;
+    top: 50px;
+    left: -200px;
+    border: 1px solid #444444;
+    float: left;
+}
+
+.girl {
+    position: relative;
+    top: 50px;
+    left: -150px;
+    border: 1px solid #444444;
+    float: left;
+}
